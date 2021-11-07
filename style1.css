@@ -1,0 +1,179 @@
+.box{
+    border-radius: 3%;
+    width: 400px;
+    height: 300px;
+    box-shadow: 4px 4px 5px rgba(128, 128, 128, 0.479);
+    border: 3px solid rgba(165, 42, 42, 0.425);
+    position: relative;
+    margin-left: 37%;
+    margin-bottom: 10px;
+   
+}
+.div1{
+    text-align: center;
+    color: chocolate;
+    font-size: large;
+    border-bottom: 1px solid black;
+    margin-left: 50px;
+}
+.div2{
+    text-align:center;
+    margin-right: 20px;
+    color: red;
+    text-decoration-line: line-through;
+}
+.pending{
+    text-align: center;
+    margin-right: 70px;
+    font-size: large;
+}
+.back{
+    font-size: larger;
+}
+h1{
+      
+        font-size: 50px;
+        font-family: sans-serif;
+        margin: 50px auto;
+        text-align: center;
+        max-width:600px;
+        position: relative;
+}
+h1::before{
+    content:"";
+    display: bloack;
+    width: 120px;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 40px;
+    top: 50%;
+}
+h1::after{
+    content:"";
+    display: bloack;
+    width: 120px;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    right:40px;
+    top: 50%;
+}
+.icon1{
+    position: fixed;
+    margin-top: 70px;
+    margin-left: 350px;
+
+}
+.notshow{
+    filter:blur(8px) ;
+}
+.link{
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+
+@media (max-width:600px){
+
+    .main{
+        /* width: 350px; */
+        
+    }
+
+    .box{
+        border-radius: 3%;
+        width: 250px;
+        height: 400px;
+        box-shadow: 4px 4px 5px rgba(128, 128, 128, 0.479);
+        border: 3px solid rgba(165, 42, 42, 0.425);
+        position: relative;
+        margin: 10px;
+        margin-left: 20%;
+        margin-bottom: 10px;
+        margin-right: 40px;
+        margin-top: 100px;
+        
+       
+    }
+    .div1{
+        text-align: center;
+        color: chocolate;
+        font-size: large;
+        border-bottom: 1px solid black;
+        margin-left: 70px;
+    }
+    .div2{
+        text-align:center;
+        margin-right: 20px;
+        color: red;
+        text-decoration-line: line-through;
+    }
+    .pending{
+        text-align: center;
+        margin-right: 70px;
+        font-size: large;
+    }
+    .back{
+        display: none;
+        font-size: larger;
+    }
+     h1{ 
+         
+            font-size: 50px;
+            font-family: sans-serif;
+            margin: 50px auto;
+            text-align: center;
+            max-width:600px;
+            position:absolute;
+            margin-left: 110px;
+                /* margin-top: 0px; */
+    }
+    h1::before{
+        display: none;
+        content:"";
+        display: bloack;
+        width: 120px;
+        height: 2px;
+        background: lightgray;
+        position: absolute;
+        left: 40px;
+        top: 50%;
+    }
+    h1::after{
+        display: none;
+        content:"";
+        display: bloack;
+        width: 120px;
+        height: 2px;
+        background: lightgray;
+        position: absolute;
+        right:40px;
+        top: 50%;
+    } 
+    .icon1{
+        position: fixed;
+        margin-top: 180px;
+       margin-left: 210px;
+        
+   
+        
+    }
+    .notshow{
+        filter:blur(8px) ;
+    }
+    .link{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+          top: 30px;
+          left: 30px;
+    }
+     .icon{
+         position: absolute;
+         margin-right: 270px;
+         margin-top: 50px;
+         margin-left: 30px;
+      left: 30px;
+     }
+}
