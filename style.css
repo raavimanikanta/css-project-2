@@ -26,6 +26,7 @@
     width: 800px;
     height: 100px;
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 30px;
     padding:0px;
@@ -40,6 +41,7 @@
     box-shadow: 4px 4px 5px rgba(128, 128, 128, 0.479);
     border: 3px solid rgba(165, 42, 42, 0.425);
     margin-right: 30px;
+    margin: 5px;
     
 
 }    
