@@ -60,9 +60,7 @@
 .notshow{
     filter:blur(8px)
 }
-.hide{
-    display: none;;
-} 
+
 
 
 
@@ -137,9 +135,7 @@
     .notshow{
         filter:blur(8px)
     }
-    .hide{
-    display: inline;
-    } 
+    
     a{
         margin-left: 130px;
     }
